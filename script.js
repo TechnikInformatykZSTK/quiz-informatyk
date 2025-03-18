@@ -8,7 +8,10 @@ const questions = [
     "Czy interesuje Cię cyberbezpieczeństwo?",
     "Czy chcesz pracować w branży IT?",
     "Czy potrafisz skupić się na rozwiązywaniu problemu przez długi czas?",
-    "Czy chciałbyś rozwijać się w dziedzinie IT?"
+    "Czy lubisz pracować z bazami danych?",
+    "Czy potrafisz skupić się na rozwiązywaniu problemu przez długi czas?",
+    "Czy chcesz tworzyć strony internetowe lub aplikacje?",
+    "Czy dobrze radzisz sobie z nowymi technologiami?"
 ];
 
 let shuffledQuestions = [];
