@@ -7,10 +7,13 @@ const questions = [
     "Czy potrafisz samodzielnie znaleźć rozwiązania w Google?",
     "Czy interesuje Cię cyberbezpieczeństwo?",
     "Czy chcesz pracować w branży IT?",
-    "Czy potrafisz skupić się na rozwiązywaniu problemu przez długi czas?",
+    "Czy dobrze radzisz sobie z matematyką?",
     "Czy lubisz pracować z bazami danych?",
+    "Czy potrafisz skupić się na rozwiązywaniu problemu przez długi czas?",
     "Czy chcesz tworzyć strony internetowe lub aplikacje?",
-    "Czy dobrze radzisz sobie z nowymi technologiami?"
+    "Czy dobrze radzisz sobie z nowymi technologiami?",
+    "Czy chciałbyś rozwijać się w dziedzinie IT?",
+    "Czy uważasz, że technik informatyk to ciekawy zawód?"
 ];
 
 let shuffledQuestions = [];
