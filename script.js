@@ -105,9 +105,17 @@ function restartQuiz() {
 
 function shareResult() {
     const text = document.getElementById("result-text").innerText;
-    const url = encodeURIComponent(window.location.href);
-    const shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${url}&quote=${text}`;
+    const url = encodeURIComponent("https://technikinformatykzstk.github.io/quiz-informatyk/");
+    
+    // Hashtagi do posta
+    const hashtags = "#TechnikInformatyk #QuizIT #ZSTKLublin #TargiEdukacyjne2025";
+
+    // Link do udostępnienia na Facebooku
+    const shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${url}&quote=${encodeURIComponent(text + "\n\n" + hashtags)}`;
+    
+    // Otwieramy Facebooka w nowym oknie
     window.open(shareUrl, "_blank");
 }
+
 
 startQuiz();
