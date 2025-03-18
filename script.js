@@ -9,7 +9,6 @@ const questions = [
     "Czy chcesz pracować w branży IT?",
     "Czy potrafisz skupić się na rozwiązywaniu problemu przez długi czas?",
     "Czy lubisz pracować z bazami danych?",
-    "Czy potrafisz skupić się na rozwiązywaniu problemu przez długi czas?",
     "Czy chcesz tworzyć strony internetowe lub aplikacje?",
     "Czy dobrze radzisz sobie z nowymi technologiami?"
 ];
