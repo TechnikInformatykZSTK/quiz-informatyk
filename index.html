@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz: Czy nadajesz się na technika informatyka?</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="quiz-container">
+        <img src="logo.png" alt="Logo Szkoły" class="school-logo">
+        <h1>🚀 Quiz: Czy nadajesz się na technika informatyka? 💻</h1>
+        
+        <!-- Pasek postępu -->
+        <div class="progress-container">
+            <div class="progress-bar" id="progress-bar"></div>
+        </div>
+
+        <div id="quiz">
+            <p id="question" class="fade-in"></p>
+            <p id="timer">⏳ Pozostały czas: <span id="time-left">10</span> sek.</p>
+            
+            <div class="button-container">
+                <button class="btn btn-yes" onclick="answer(true)">✅ Tak</button>
+                <button class="btn btn-no" onclick="answer(false)">❌ Nie</button>
+            </div>
+        </div>
+        
+        <div id="result" class="hidden">
+            <h2 id="result-text"></h2>
+            <button class="btn btn-restart" onclick="restartQuiz()">🔄 Zagraj ponownie</button>
+            <button class="btn btn-share" onclick="shareResult()">📢 Udostępnij</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
