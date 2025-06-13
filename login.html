@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>🔐 Zaloguj się</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to right, #fffde7, #ffe0b2);
+            padding: 50px;
+            text-align: center;
+        }
+        form {
+            display: inline-block;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        input {
+            display: block;
+            margin: 15px auto;
+            padding: 12px;
+            width: 80%;
+            font-size: 16px;
+        }
+        input[type="submit"] {
+            background-color: #43a047;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        input[type="submit"]:hover {
+            background-color: #388e3c;
+        }
+    </style>
+</head>
+<body>
+    <h2>🛡️ Bezpieczne logowanie</h2>
+    <form action="ostrzezenie.html" method="get">
+        <input type="text" name="login" placeholder="Login">
+        <input type="password" name="haslo" placeholder="Hasło">
+        <input type="submit" value="Zaloguj się">
+    </form>
+</body>
+</html>

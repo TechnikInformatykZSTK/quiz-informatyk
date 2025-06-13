@@ -1,43 +1,40 @@
+
 <!DOCTYPE html>
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz: Sprawdź, czy technik informatyk to zawód dla Ciebie! </title>
-    <link rel="stylesheet" href="style.css">
+    <title>📩 Masz wiadomość!</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to right, #f9f9ff, #e0f7fa);
+            padding: 50px;
+            text-align: center;
+        }
+        .mail {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 30px;
+            max-width: 600px;
+            margin: auto;
+        }
+        .mail a {
+            font-weight: bold;
+            color: #1565c0;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .mail a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-
-    <div class="quiz-container">
-        <img src="logo.png" alt="Logo Szkoły" class="school-logo">
-        <h1>🚀 Quiz: Sprawdź, czy technik informatyk to zawód dla Ciebie! 💻</h1>
-        
-        <!-- Pasek postępu -->
-        <div class="progress-container">
-            <div class="progress-bar" id="progress-bar"></div>
-        </div>
-
-        <div id="quiz">
-            <p id="question" class="fade-in"></p>
-            <p id="timer">⏳ Pozostały czas: <span id="time-left">10</span> sek.</p>
-            
-            <div class="button-container">
-                <button class="btn btn-yes" onclick="answer(true)">✅ Tak</button>
-                <button class="btn btn-no" onclick="answer(false)">❌ Nie</button>
-            </div>
-        </div>
-
-        <div id="result" class="hidden">
-    <h2 id="result-text"></h2>
-    <div class="result-buttons">
-        <button class="btn btn-restart" onclick="restartQuiz()">🔄 Zagraj ponownie</button>
-        <button class="btn btn-share" onclick="shareResult()">📢 Udostępnij</button>
+    <div class="mail">
+        <h2>📧 Nowa wiadomość: "Masz nieodebraną paczkę!"</h2>
+        <p>Drogi użytkowniku, Twoja paczka czeka na potwierdzenie adresu.</p>
+        <p><a href="login.html">Kliknij tutaj, aby potwierdzić dane dostawy</a></p>
     </div>
-</div>
-
-        
-    
-
-    <script src="script.js"></script>
 </body>
 </html>
